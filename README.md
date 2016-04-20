@@ -4,8 +4,21 @@ Derived from the [example](https://github.com/jitpack/android-example/blob/maste
 
 
 # Usage
+Add this line to your outermost `build.gradle`
+```java
+dependencies {
+        classpath 'com.android.tools.build:gradle:2.0.0'
+        //this line will probably have the 'com.android.tools.build:gradle' dependency
+        //..
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+}
+```
 Add this line to the end of your library's `build.gradle` to get it producing Javadocs!
 ```java
+dependencies {
+    //Your dependencies (if you have any)
+}
+
 apply from: 'https://raw.github.com/Commit451/gradle-android-javadocs/master/gradle-mvn-push.gradle'
 ```
 
