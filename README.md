@@ -1,5 +1,5 @@
 # gradle-android-javadocs
-Helps setup the tasks needed to generate javadocs for an Android library.
+Helps setup the tasks needed to generate javadocs and sources for an Android library.
 Derived from the [example](https://github.com/jitpack/android-example/blob/master/library/build.gradle) provided by the great guys as [Jitpack](https://jitpack.io)
 
 
