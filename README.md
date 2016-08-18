@@ -10,7 +10,7 @@ dependencies {
         classpath 'com.android.tools.build:gradle:2.0.0'
         //this line will probably have the 'com.android.tools.build:gradle' dependency
         //..
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.3'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
 }
 ```
 Add this line to the end of your library's `build.gradle` to get it producing Javadocs!
