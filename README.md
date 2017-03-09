@@ -1,31 +1,29 @@
 # gradle-android-javadocs
 Helps setup the tasks needed to generate javadocs and sources for an Android library.
-Derived from the [example](https://github.com/jitpack/android-example/blob/master/library/build.gradle) provided by the great guys as [Jitpack](https://jitpack.io)
-
+Derived from the [example](https://github.com/jitpack/android-example/blob/master/library/build.gradle) provided by the great guys at [Jitpack](https://jitpack.io)
 
 # Usage
 Add this line to your outermost `build.gradle`
 ```java
 dependencies {
-        classpath 'com.android.tools.build:gradle:2.0.0'
         //this line will probably have the 'com.android.tools.build:gradle' dependency
         //..
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
 }
 ```
-Add this line to the end of your library's `build.gradle` to get it producing Javadocs!
+Add this line to the end of your library's `build.gradle` to get it producing Javadocs and Sources!
 ```java
 dependencies {
     //Your dependencies (if you have any)
 }
 
-apply from: 'https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.0.0/gradle-android-javadocs.gradle'
+apply from: 'https://raw.githubusercontent.com/Commit451/gradle-android-javadocs/1.1.0/gradle-android-javadocs.gradle'
 ```
 
 License
 --------
 
-    Copyright 2016 Commit 451
+    Copyright 2017 Commit 451
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
