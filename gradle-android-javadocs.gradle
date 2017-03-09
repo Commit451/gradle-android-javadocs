@@ -13,8 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-
-apply plugin: 'com.github.dcendents.android-maven'
+try {
+  apply plugin: 'com.github.dcendents.android-maven'
+} catch (ignored) {
+  throw new InvalidUserDataException("You need to add \"classpath 'com.github.dcendents:android-maven-gradle-plugin:latest.version'\" to your build.gradle buildscript dependencies. See the README for more")
+}
 
 // build a jar with source files
 task sourcesJar(type: Jar) {
