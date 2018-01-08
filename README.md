@@ -8,7 +8,7 @@ Add this line to your outermost `build.gradle`
 dependencies {
         //this line will probably have the 'com.android.tools.build:gradle' dependency
         //..
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
 }
 ```
 Add this line to the end of your library's `build.gradle` to get it producing Javadocs and Sources!
