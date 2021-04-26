@@ -1,5 +1,5 @@
 /*
- * Copyright 2016 Commit 451
+ * Copyright 2021 Commit 451
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,12 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-try {
-  apply plugin: 'com.github.dcendents.android-maven'
-} catch (ignored) {
-  throw new InvalidUserDataException("You need to add \"classpath 'com.github.dcendents:android-maven-gradle-plugin:latest.version'\" to your build.gradle buildscript dependencies. See the README for more")
-}
-
+ 
 // build a jar with source files
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
