@@ -1,3 +1,6 @@
+# DEPRECATED
+Use https://github.com/vanniktech/gradle-maven-publish-plugin instead.
+
 # gradle-android-javadocs
 Helps setup the tasks needed to generate javadocs and sources for an Android library.
 Derived from the [example](https://github.com/jitpack/android-example/blob/master/library/build.gradle) provided by the great guys at [Jitpack](https://jitpack.io)
